@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="">
+		<meta name="Author" content="">
+		<meta name="Keywords" content=""/>
+
+		<!-- Title -->
+		<title> Deyar </title>
+
+		<!--- Favicon --->
+		<link rel="icon" href="assets/img/brand/favicon.png" type="image/x-icon"/>
+
+<!--- Icons css --->
+		<link href="assets/css/icons.css" rel="stylesheet">
+
+		<!-- Internal Data table css -->
+		<link href="assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+		<link href="assets/plugins/datatable/css/buttons.bootstrap4.min.css" rel="stylesheet">
+		<link href="assets/plugins/datatable/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+		<link href="assets/plugins/datatable/css/jquery.dataTables.min.css" rel="stylesheet">
+		<link href="assets/plugins/datatable/css/responsive.dataTables.min.css" rel="stylesheet">
+		<link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+		<!--- Right-sidemenu css --->
+		<link href="assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+		<!--- Custom Scroll bar --->
+		<link href="assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+
+		<!--- Style css --->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/skin-modes.css" rel="stylesheet">
+
+		<!--- Animations css --->
+		<link href="assets/css/animate.css" rel="stylesheet">
+<style type="text/css">
+	button.btn.btn-primary.buttons-collection.dropdown-toggle.buttons-colvis {
+    display: none;
+}
+.btn-main-primary {
+    color: #fff;
+    background-color: #ec1d8c;
+    border-color: #ec1d8c;
+}
+</style>
+	</head>
+	<body class="main-body  app">
+
+		<!-- Loader -->
+		<div id="global-loader">
+			<img src="assets/img/loaders/loader-4.svg" class="loader-img" alt="Loader">
+		</div>
+		<!-- /Loader -->
+
+		
+
+		<!-- Page -->
+		<div class="page">
+
+		   <!-- main-header opened -->
+				<div class="main-header nav nav-item hor-header">
+					<div class="container">
+						<div class="main-header-left ">
+							<a class="animated-arrow hor-toggle horizontal-navtoggle"><span></span></a><!-- sidebar-toggle-->
+							<a class="header-brand" href="index.html">
+								<img src="assets/img/brand/logo-white.png" class="logo-white ">
+								<img src="assets/img/brand/logo.png" class="logo-default">
+								<img src="assets/img/brand/favicon-white.png" class="icon-white">
+								<img src="assets/img/brand/favicon.png" class="icon-default">
+							</a>
+							<div class="main-header-center  ml-4">
+						
+							</div>
+						</div><!-- search -->
+						<div class="main-header-right">
+							<div class="nav nav-item nav-link" id="bs-example-navbar-collapse-1" style="display: none;">
+									<form class="navbar-form" role="search">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Search">
+											<span class="input-group-btn">
+												<button type="reset" class="btn btn-default">
+													<i class="fas fa-times"></i>
+												</button>
+												<button type="submit" class="btn btn-default nav-link">
+													<i class="fe fe-search"></i>
+												</button>
+											</span>
+										</div>
+									</form>
+								</div>
+
+								
+								<div class="nav nav-item  navbar-nav-right ml-auto">
+									<div class="nav-item full-screen fullscreen-button">
+										<a class="new nav-link full-screen-link" href="#"><i class="fe fe-maximize"></i></a>
+									</div>
+								
+								<div class="dropdown nav-item main-header-notification">
+									<a class="new nav-link" href="#"><i class="fe fe-bell"></i><span class=" pulse"></span></a>
+									<div class="dropdown-menu">
+										<div class="menu-header-content bg-primary-gradient text-left d-flex">
+											<div class="">
+												<h6 class="menu-header-title text-white mb-0">7 new Notifications</h6>
+											</div>
+											<div class="my-auto ml-auto">
+												<a class="badge badge-pill badge-warning float-right" href="#">Mark All Read</a>
+											</div>
+										</div>
+										<div class="main-notification-list Notification-scroll">
+											<a class="d-flex p-3 border-bottom" href="#">
+												<div class="notifyimg bg-success-transparent">
+													<i class="la la-shopping-basket text-success"></i>
+												</div>
+												<div class="ml-3">
+													<h5 class="notification-label mb-1">New Order Received</h5>
+													<div class="notification-subtext">1 hour ago</div>
+												</div>
+												<div class="ml-auto" >
+													<i class="las la-angle-right text-right text-muted"></i>
+												</div>
+											</a>
+											<a class="d-flex p-3 border-bottom" href="#">
+												<div class="notifyimg bg-danger-transparent">
+													<i class="la la-user-check text-danger"></i>
+												</div>
+												<div class="ml-3">
+													<h5 class="notification-label mb-1">22 verified registrations</h5>
+													<div class="notification-subtext">2 hour ago</div>
+												</div>
+												<div class="ml-auto" >
+													<i class="las la-angle-right text-right text-muted"></i>
+												</div>
+											</a>
+											<a class="d-flex p-3 border-bottom" href="#">
+												<div class="notifyimg bg-primary-transparent">
+													<i class="la la-check-circle text-primary"></i>
+												</div>
+												<div class="ml-3">
+													<h5 class="notification-label mb-1">Project has been approved</h5>
+													<div class="notification-subtext">4 hour ago</div>
+												</div>
+												<div class="ml-auto" >
+													<i class="las la-angle-right text-right text-muted"></i>
+												</div>
+											</a>
+											<a class="d-flex p-3 border-bottom" href="#">
+												<div class="notifyimg bg-pink-transparent">
+													<i class="la la-file-alt text-pink"></i>
+												</div>
+												<div class="ml-3">
+													<h5 class="notification-label mb-1">New files available</h5>
+													<div class="notification-subtext">10 hour ago</div>
+												</div>
+												<div class="ml-auto" >
+													<i class="las la-angle-right text-right text-muted"></i>
+												</div>
+											</a>
+										
+										
+										</div>
+										<div class="dropdown-footer">
+											<a href="#">VIEW ALL</a>
+										</div>
+									</div>
+								</div>
+								<div class="dropdown main-profile-menu nav nav-item nav-link">
+									<a class="profile-user d-flex" href=""><img src="assets/img/faces/6.jpg" alt="user-img" class="rounded-circle mCS_img_loaded"><span></span></a>
+									<div class="dropdown-menu">
+										<div class="main-header-profile header-img">
+											<div class="main-img-user"><img alt="" src="assets/img/faces/6.jpg"></div>
+											<h6>Petey Cruiser</h6>
+										</div>
+										<a class="dropdown-item" href=""><i class="far fa-user"></i> My Profile</a>
+										
+										<a class="dropdown-item" href=""><i class="fas fa-sliders-h"></i> Account Settings</a>
+										<a class="dropdown-item" href="page-signin.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+									</div>
+								</div>
+							<!-- 	<div class="dropdown main-header-message right-toggle">
+									<a class="nav-link pr-0" data-toggle="sidebar-right" data-target=".sidebar-right">
+										<i class="ion ion-md-menu tx-20 bg-transparent"></i>
+									</a>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+		  <!-- main-header closed -->
+
+			<!--Horizontal-main -->
+			<div class="sticky">
+				<div class="horizontal-main hor-menu clearfix side-header">
+					<div class="horizontal-mainwrapper container clearfix">
+						<!--Nav-->
+						<nav class="horizontalMenu clearfix">
+							<ul class="horizontalMenu-list">
+								<li aria-haspopup="true"><a href="index.html" class=""><i class="fe fe-airplay  menu-icon"></i> Dashboard</a></li>
+							
+
+								<li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-01.png"> Sales <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Order</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Order Details</a></li>
+								    <li aria-haspopup="true"><a href="#" class="slide-item"> New Invoice</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Invoice List</a></li>
+								</ul>
+							    </li>
+							     <li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-02.png"> Stakeholders <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									  <li aria-haspopup="true"><a href="#" class="sub-icon"> Customers <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Customer</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Customer List</a></li>
+							    </ul>
+							    </li>
+                                 <li aria-haspopup="true"><a href="#" class="sub-icon">Suppliers <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="add-supplier.html" class="slide-item"> New Supplier</a></li>
+									<li aria-haspopup="true"><a href="supplier-list.html" class="slide-item"> Supplier List</a></li>
+							    </ul>
+							    </li>
+
+							    </ul>
+							    </li>
+							  
+							     <li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-04.png"> Category <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Category</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Category List</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Products</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Product List</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Attributes</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Attribute List</a></li>
+							    </ul>
+							    </li>
+							      <li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-05.png"> Inventory <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Item</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Stocks</a></li>
+							    </ul>
+							    </li>
+							    <li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-06.png"> Staffs <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> New Employee</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Employee List</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Role Master</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Page Access</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Department </a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Designation</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Add Group</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Groups</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Assign Task</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Task List</a></li>
+							    </ul>
+							    </li>
+                                <li aria-haspopup="true"><a href="#" class="sub-icon"> <img src="assets/img/icon/icon-07.png"> Reports <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Order Details</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Payment Details</a></li>
+							    </ul>
+							    </li>
+							
+								
+								 <li aria-haspopup="true"><a href="#" class="sub-icon"><img src="assets/img/icon/icon-08.png"> CMS Management <i class="fe fe-chevron-down horizontal-icon"></i></a>
+								<ul class="sub-menu">
+									<li aria-haspopup="true"><a href="#" class="slide-item"> About Us</a></li>
+									<li aria-haspopup="true"><a href="#" class="slide-item"> Who We are </a></li>
+										<li aria-haspopup="true"><a href="#" class="slide-item"> Clients </a></li>
+											<li aria-haspopup="true"><a href="#" class="slide-item"> Contact Page </a></li>
+							    </ul>
+							    </li>
+								</ul>
+						</nav>
+						<!--Nav-->
+					</div>
+				</div>
+			</div>
+			<!--Horizontal-main -->
+
+			<!-- main-content opened -->
+			<div class="main-content horizontal-content">
+
+				<!-- container opened -->
+				<div class="container">
+
+					<!-- breadcrumb -->
+					<div class="breadcrumb-header justify-content-between">
+						<div>
+							<h4 class="content-title mb-2">Hi, welcome back!</h4>
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+								<li class="breadcrumb-item active">Suppliers</li>
+									<li class="breadcrumb-item active" aria-current="page">New Supplier</li>
+								</ol>
+							</nav>
+						</div>
+						
+					</div>
+					<!-- /breadcrumb -->
+
+
+					<!-- main-content-body -->
+					<div class="main-content-body">
+						<div class="row row-sm">
+								<!--div-->
+					<div class="col-xl-12">
+						<div class="card mg-b-20">
+							<div class="card-header pb-0">
+								<div class="justify-content-between" style="display: inline-block;">
+									<h3 class="card-title mg-b-2 mt-2"> Add Supplier</h3>
+									<i class="mdi mdi-dots-horizontal text-gray"></i>
+						             </div>
+							<!-- <div class="btn_right">
+								<a href="#" class="btn btn-outline-success btn-block"> View All</a>
+							</div> -->
+					                </div>
+
+					<div class="card-body">                
+<form action="form-validation.html" data-parsley-validate="">
+									<div class="row row-sm">
+										<div class="col-6">
+											<div class="form-group mg-b-0">
+												<label class="form-label">Supplier: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="supplier" placeholder="Enter Supplier Name" required="" type="text">
+									                </div>
+								                </div>
+										<div class="col-6">
+											<div class="form-group">
+												<label class="form-label">Email Id: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="emailid" placeholder="Enter Email Id" required="" type="email">
+									                </div>
+								                </div>
+								                <div class="col-6">
+											<div class="form-group">
+												<label class="form-label">Phone Number: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="pnumber" placeholder="Enter Phone Number" required="" type="number">
+									                </div>
+								                </div>
+								                <div class="col-6">
+											<div class="form-group">
+												<label class="form-label">Contact Person: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="cperson" placeholder="Enter Contact Person Name" required="" type="text">
+									                </div>
+								                </div>
+								                 <div class="col-12">
+											<div class="form-group">
+												<label class="form-label">Description: </label>
+												<textarea class="form-control " placeholder="Enter Description"  rows="3" ></textarea>
+									                </div>
+								                </div>
+										<div class="col-12 text-right"><button class="btn btn-main-primary pd-x-20 mg-t-10" type="submit">Submit Form</button>                </div>
+							                </div>
+								</form>
+
+</div>
+				
+				                </div>
+			                </div>
+					<!--/div-->
+						</div>
+
+			
+
+
+
+
+
+
+
+
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /main-content -->
+
+	
+
+			<!-- Footer opened -->
+			<div class="main-footer ht-50">
+				<div class="container-fluid pd-t-0-f ht-100p">
+					<span>© 2021 <a href="http://deyarprint.com/">Deyar Print</a>. Designed by <a href="https://www.crayotech.com/">Crayo Tech</a> All rights reserved.</span>
+				</div>
+			</div>
+			<!-- Footer closed -->
+		</div>
+		<!-- end page -->
+
+		<!--- Back-to-top --->
+		<a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
+
+	<!--- JQuery min js --->
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+		<!--- Bootstrap Bundle js --->
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!--- Select2 js --->
+		<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+		<!--- Ionicons js --->
+		<script src="assets/plugins/ionicons/ionicons.js"></script>
+
+		<!--- Moment js --->
+		<script src="assets/plugins/moment/moment.js"></script>
+
+		<!--- JQuery sparkline js --->
+		<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+		<!--- Internal Parsley.min js --->
+		<script src="assets/plugins/parsleyjs/parsley.min.js"></script>
+
+		<!--- Perfect-scrollbar js --->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+		<!--- Eva-icons js --->
+		<script src="assets/js/eva-icons.min.js"></script>
+
+		<!--- Rating js --->
+		<script src="assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="assets/plugins/rating/jquery.barrating.js"></script>
+
+		<!--- Custom Scroll bar Js --->
+		<script src="assets/plugins/mscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!--- Horizontalmenu js --->
+		<script src="assets/plugins/horizontal-menu/horizontal-menu.js"></script>
+
+		<!--- Right-sidebar js --->
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+		<script src="assets/plugins/sidebar/sidebar-custom.js"></script>
+
+		<!--- Sticky js --->
+		<script src="assets/js/sticky.js"></script>
+
+		<!--- Internal Form-validation js --->
+		<script src="assets/js/form-validation.js"></script>
+
+		<!--- Index js --->
+		<script src="assets/js/script.js"></script>
+
+		<!--- Custom js --->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>

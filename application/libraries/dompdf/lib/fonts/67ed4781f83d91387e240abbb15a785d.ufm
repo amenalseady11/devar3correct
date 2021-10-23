@@ -1,0 +1,119 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright 2017 Alexander Manfred Poellmann
+FontName cryptofont-webfont
+FontSubfamily Regular
+UniqueID cryptofont-webfont
+FullName cryptofont-webfont
+Version Version 1.0
+PostScriptName cryptofont-webfont
+Designer Alexander Manfred Poellmann
+FontVendorURL https://alexanderpoellmann.com/cryptofont
+FontDesignerURL https://alexanderpoellmann.com
+LicenseDescription SIL OFL 1.1
+LicenseURL http://scripts.sil.org/OFL
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 0
+UnderlinePosition 0
+FontHeightOffset 0
+Ascender 850
+Descender -149
+FontBBox 0 -146 981 833
+StartCharMetrics 92
+U 0 ; WX 0 ; N uni0000 ; G 1
+U 1 ; WX 0 ; N uni0001 ; G 2
+U 32 ; WX 500 ; N uni0020 ; G 3
+U 61440 ; WX 1000 ; N unif000 ; G 4
+U 61441 ; WX 1000 ; N unif001 ; G 5
+U 61442 ; WX 1000 ; N unif002 ; G 6
+U 61443 ; WX 1000 ; N unif003 ; G 7
+U 61444 ; WX 1000 ; N unif004 ; G 8
+U 61445 ; WX 1000 ; N unif005 ; G 9
+U 61446 ; WX 1000 ; N unif006 ; G 10
+U 61447 ; WX 1000 ; N unif007 ; G 11
+U 61448 ; WX 1000 ; N unif008 ; G 12
+U 61449 ; WX 1000 ; N unif009 ; G 13
+U 61450 ; WX 1000 ; N unif00a ; G 14
+U 61451 ; WX 1000 ; N unif00b ; G 15
+U 61452 ; WX 1000 ; N unif00c ; G 16
+U 61453 ; WX 1000 ; N unif00d ; G 17
+U 61454 ; WX 1000 ; N unif00e ; G 18
+U 61455 ; WX 1000 ; N unif00f ; G 19
+U 61456 ; WX 1000 ; N unif010 ; G 20
+U 61457 ; WX 1000 ; N unif011 ; G 21
+U 61458 ; WX 1000 ; N unif012 ; G 22
+U 61459 ; WX 1000 ; N unif013 ; G 23
+U 61460 ; WX 1000 ; N unif014 ; G 24
+U 61461 ; WX 1000 ; N unif015 ; G 25
+U 61462 ; WX 1000 ; N unif016 ; G 26
+U 61463 ; WX 1000 ; N unif017 ; G 27
+U 61464 ; WX 1000 ; N unif018 ; G 28
+U 61465 ; WX 1000 ; N unif019 ; G 29
+U 61466 ; WX 1000 ; N unif01a ; G 30
+U 61467 ; WX 1000 ; N unif01b ; G 31
+U 61468 ; WX 1000 ; N unif01c ; G 32
+U 61469 ; WX 1000 ; N unif01d ; G 33
+U 61470 ; WX 1000 ; N unif01e ; G 34
+U 61471 ; WX 1000 ; N unif01f ; G 35
+U 61472 ; WX 1000 ; N unif020 ; G 36
+U 61473 ; WX 1000 ; N unif021 ; G 37
+U 61474 ; WX 1000 ; N unif022 ; G 38
+U 61475 ; WX 1000 ; N unif023 ; G 39
+U 61476 ; WX 1000 ; N unif024 ; G 40
+U 61477 ; WX 1000 ; N unif025 ; G 41
+U 61478 ; WX 1000 ; N unif026 ; G 42
+U 61479 ; WX 1000 ; N unif027 ; G 43
+U 61480 ; WX 1000 ; N unif028 ; G 44
+U 61481 ; WX 1000 ; N unif029 ; G 45
+U 61482 ; WX 1000 ; N unif02a ; G 46
+U 61483 ; WX 1000 ; N unif02b ; G 47
+U 61484 ; WX 1000 ; N unif02c ; G 48
+U 61485 ; WX 1000 ; N unif02d ; G 49
+U 61486 ; WX 1000 ; N unif02e ; G 50
+U 61487 ; WX 1000 ; N unif02f ; G 51
+U 61488 ; WX 1000 ; N unif030 ; G 52
+U 61489 ; WX 1000 ; N unif031 ; G 53
+U 61490 ; WX 1000 ; N unif032 ; G 54
+U 61491 ; WX 1000 ; N unif033 ; G 55
+U 61492 ; WX 1000 ; N unif034 ; G 56
+U 61493 ; WX 1000 ; N unif035 ; G 57
+U 61494 ; WX 1000 ; N unif036 ; G 58
+U 61495 ; WX 1000 ; N unif037 ; G 59
+U 61496 ; WX 1000 ; N unif038 ; G 60
+U 61497 ; WX 1000 ; N unif039 ; G 61
+U 61498 ; WX 1000 ; N unif03a ; G 62
+U 61499 ; WX 1000 ; N unif03b ; G 63
+U 61500 ; WX 1000 ; N unif03c ; G 64
+U 61501 ; WX 1000 ; N unif03d ; G 65
+U 61502 ; WX 1000 ; N unif03e ; G 66
+U 61503 ; WX 1000 ; N unif03f ; G 67
+U 61504 ; WX 1000 ; N unif040 ; G 68
+U 61505 ; WX 1000 ; N unif041 ; G 69
+U 61506 ; WX 1000 ; N unif042 ; G 70
+U 61507 ; WX 1000 ; N unif043 ; G 71
+U 61508 ; WX 1000 ; N unif044 ; G 72
+U 61509 ; WX 1000 ; N unif045 ; G 73
+U 61510 ; WX 1000 ; N unif046 ; G 74
+U 61511 ; WX 1000 ; N unif047 ; G 75
+U 61512 ; WX 1000 ; N unif048 ; G 76
+U 61513 ; WX 1000 ; N unif049 ; G 77
+U 61514 ; WX 1000 ; N unif04a ; G 78
+U 61515 ; WX 1000 ; N unif04b ; G 79
+U 61516 ; WX 1000 ; N unif04c ; G 80
+U 61517 ; WX 1000 ; N unif04d ; G 81
+U 61518 ; WX 1000 ; N unif04e ; G 82
+U 61519 ; WX 1000 ; N unif04f ; G 83
+U 61520 ; WX 1000 ; N unif050 ; G 84
+U 61521 ; WX 1000 ; N unif051 ; G 85
+U 61522 ; WX 1000 ; N unif052 ; G 86
+U 61523 ; WX 1000 ; N unif053 ; G 87
+U 61524 ; WX 1000 ; N unif054 ; G 88
+U 61525 ; WX 1000 ; N unif055 ; G 89
+U 61526 ; WX 1000 ; N unif056 ; G 90
+U 61527 ; WX 1000 ; N unif057 ; G 91
+EndCharMetrics
+EndFontMetrics
